@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>ประวัติส่วนตัว</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link href="css/tooplate-little-fashion.css" rel="stylesheet">
+
+    <!-- Font Awesome for social media icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f1f5f8;
+            padding-top: 70px; /* เพิ่มพื้นที่ด้านบนให้ navbar */
+        }
+
+        .navbar {
+            background-color: #007bff; /* ปรับสี navbar */
+            border-bottom: 4px solid #fff;
+        }
+
+        .navbar-brand span {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+            background-color: #ffffff;
+            padding: 40px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-icons a {
+            font-size: 50px;
+            color: #333;
+            text-decoration: none;
+            transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #ffffff;
+            background-color: #007bff;
+            transform: scale(1.1); /* ขยายขนาดเมื่อ hover */
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3); /* เพิ่มเงาเมื่อ hover */
+        }
+
+        .faq {
+            margin-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .text-center h2 {
+            font-size: 36px;
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+
+        .text-center p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .site-header {
+            background-color: #007bff;
+            color: white;
+            padding: 80px 0;
+        }
+
+        .site-header h1 {
+            font-size: 50px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="preloader">
+        <div class="spinner">
+            <span class="sk-inner-circle"></span>
+        </div>
+    </section>
+
+    <main>
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand" href="index.html">
+                    <strong><span>ประวัติส่วนตัว</span></strong>
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">หน้าหลัก</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">ข้อมูลของฉัน</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">แกลอรี่</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">ติดต่อ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="site-header section-padding d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-12">
+                     
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Social Media Links -->
+        <section class="faq section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>Contact</h2>
+                        <div class="social-icons">
+                            <!-- TikTok -->
+                            <a href="https://www.tiktok.com/@user1211251800" target="_blank">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <!-- Facebook -->
+                            <a href="https://www.facebook.com/thnathip.pan.si.nun" target="_blank">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com/tanathip_pluem/" target="_blank">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <!-- YouTube -->
+                            <a href="https://www.youtube.com/@masaru8520" target="_blank">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
